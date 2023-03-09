@@ -34,7 +34,7 @@ searchButton.addEventListener("click", function() {
                     // Append the new book element to the books container
                     booksContainer.appendChild(newBook);
                 }
-                else{
+                if (booksContainer.innerHTML === ""){
                     booksContainer.innerHTML=`<h3 class="error">Sorry, the book "${searchValue}" doesn't exist</h3>`
                 }
             });
@@ -42,4 +42,5 @@ searchButton.addEventListener("click", function() {
         .catch(error => {
             console.error(error);
         });
+        
 });
