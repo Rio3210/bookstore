@@ -25,7 +25,7 @@ The Bookshelf web app was built using the following technologies:
 ## Contributing
 
 Contributions are welcome! If you find a bug or have an idea for a new feature, please create an issue or submit a pull request.
-##It's on progress 
-features to be added (
+##It's on progress features to be added 
+(
 - Google Books API: A web service that provides information about books
 - Third-party API: A web service that provides book content for reading in the browser)
