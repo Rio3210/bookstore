@@ -1,0 +1,182 @@
+/* home css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+
+}
+.hero-section {
+    height: 85vh;
+}
+.hero-section p{
+    text-align: justify;
+}
+.section-ourbook h2{
+    position: relative;
+    margin: 2rem auto;
+    font-weight: 500;
+    font-size: 2.1rem;
+    text-align: center;
+    
+    
+}
+.section-ourbook h2::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    left:center;
+    
+    bottom: -8px;
+    background: rgb(5, 5, 5);
+}
+.ourbook__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 1rem auto;
+}
+.carousel  {
+    
+    background-color: #086f08;
+    width: 400px;
+  
+    border-radius: 8px;
+    padding: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+    
+    position: relative;
+  }
+  .carousel img{
+
+    height: 200px;
+    -ms-transform-origin-y: scale(-1);
+    position: absolute;
+   
+    right:-2.5rem;
+    transition:0.6s ease;
+    
+  }
+  .carousel img:hover{
+    transform: scale(1.6);
+  }
+
+.tastemonial{
+
+    padding-right: 4rem;
+}
+.tastemonial-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    padding: 2rem auto;
+    /* margin-bottom: 32px; */
+    padding-bottom: 1rem;
+    color: #e6fcf5 ;
+}
+.testimonial-author{
+    font-size: 14px;
+    color: #c3fae8;
+}
+.testemonial-job{
+    font-size: 12px;
+    color: #c3fae8;
+}
+
+/*
+footer starts here
+*/
+
+footer{
+    margin-top: 2rem;
+    background-color: #086f08;
+    color: rgb(5, 5, 5);
+    padding: 1rem;
+}
+#contact{
+    margin: 1rem auto;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer{
+    padding: 10px 0;
+
+}
+.col{
+    width: 25%;
+}
+.col h4{
+    font-size: 1.2rem;
+    color: rgb(5, 5, 5);
+    margin-bottom: 25px;
+    position: relative;
+}
+.col h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left:0;
+    bottom: -8px;
+    background: rgb(5, 5, 5);
+}
+
+.col ul li:not(last-child){
+
+    margin-bottom: 15px;
+}
+
+.col ul li a{
+    color: rgb(19, 18, 18);
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+   text-decoration: none;
+
+}
+.col ul li a:hover{
+    color: #fff;
+    transform: translateX(-12px);
+}
+.col .social{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col .social a{
+    height: 40px;
+    width: 40px;
+    background:rgb(19, 18, 18);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+    text-decoration: none;
+}
+.col .social a:hover{
+    transform: scale(1.2);
+    color:rgb(5, 5, 5);
+    background: #fff;
+}
+.footer-copyright p{
+    text-align: center;
+}

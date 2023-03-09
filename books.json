@@ -1,0 +1,92 @@
+[
+  {
+    "name": "The Alchemist",
+    "author": "Paulo Coelho",
+    "category": "Fiction",
+    "image": "./assets/cover2.jpg"
+  },
+  {
+    "name": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "category": "Science Fiction",
+    "image": "./assets/cover.jpg"
+  },
+  {
+    "name": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "category": "Thriller",
+    "image": "./assets/cover3.png"
+  },
+  {
+    "name": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "category": "Self-help",
+    "image": "./assets/cover2.jpg"
+  },
+  {
+    "name": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "category": "Self-help",
+    "image": "./assets/cover2.jpg"
+  },
+  {
+    "name": "The 4-Hour Work Week",
+    "author": "Tim Ferriss",
+    "category": "Business",
+    "image": "./assets/cover3.png"
+  },
+  {
+    "name": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "category": "History",
+    "image": "./assets/cover2.jpg"
+  },
+  {
+    "name": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "category": "Science",
+    "image": "./assets/cover.jpg"
+  },
+  {
+    "name": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "category": "Mystery",
+    "image": "./assets/cover3.png"
+  },
+  {
+    "name": "The Secret",
+    "author": "Rhonda Byrne",
+    "category": "Self-help",
+    "image": "./assets/cover.jpg"
+  },
+  {
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Classics",
+    "image": "./assets/cover2.jpg"
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "category": "Classics",
+    "image": "./assets/cover.jpg"
+  },
+  {
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "category": "Classics",
+    "image": "./assets/cover2.jpg"
+  },
+  {
+    "name": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "category": "Fantasy",
+    "image": "./assets/cover3.png"
+  },
+  {
+    "name": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "category": "Fantasy",
+    "image": "./assets/cover.jpg"
+  }
+]
